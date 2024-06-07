@@ -1,0 +1,51 @@
+/* fonts */
+@font-face {
+  font-family: 'GoogleSans-Black';
+  src: url('../public/fonts/GoogleSans-Black.ttf');
+}
+@font-face {
+  font-family: 'GoogleSans-Bold';
+  src: url('../public/fonts/GoogleSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'GoogleSans-Medium';
+  src: url('../public/fonts/GoogleSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'GoogleSans-Regular';
+  src: url('../public/fonts/GoogleSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'GoogleSans-Light';
+  src: url('../public/fonts/GoogleSans-Light.ttf');
+}
+@font-face {
+  font-family: 'GoogleSans-Thin';
+  src: url('../public/fonts/GoogleSans-Thin.ttf');
+}
+
+/* colors */
+:root {
+  --transparent: transparent;
+  --black: #000000;
+  --white: #ffffff;
+  --whitesmoke: #f4f4f4;
+  --orange: #ff8813;
+  --red: #ff0000;
+  --gray: #9f9f9f;
+  --green: #00ea00;
+  --lightgreen: #00ff89;
+  --skyblue: #5f84f7;
+  --blue: #183eb3;
+  --lightblue: #365acb;
+}
+
+.container {
+  max-width: 90%;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 0.75em;
+  }
+}
