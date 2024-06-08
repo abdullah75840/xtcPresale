@@ -74,10 +74,10 @@ const Home = () => {
                     </Col>
                     <Col xs={12}>
                       <div className="tokenBtn">
-                        <span>TOKENS SOLD</span>
+                        <span>USD RAISED</span>
                         <div>
                           <img src="/images/token-icon.svg" alt="" />
-                          <span>100,000,000</span>
+                          <span>100,000.00</span>
                         </div>
                       </div>
                     </Col>
@@ -86,19 +86,19 @@ const Home = () => {
                     </Col>
                     <Col xs={12}>
                       <div className="tokenBtn">
-                        <span>TOKENS SOLD</span>
+                        <span>YOUR HOLDINGS</span>
                         <div>
                           <img src="/images/token-icon.svg" alt="" />
-                          <span>100,000,000</span>
+                          <span>5,000</span>
                         </div>
                       </div>
                     </Col>
                     <Col xs={12}>
                       <div className="tokenBtn">
-                        <span>TOKENS SOLD</span>
+                        <span>REWARDS EARNED</span>
                         <div>
                           <img src="/images/token-icon.svg" alt="" />
-                          <span>100,000,000</span>
+                          <span>100.00</span>
                         </div>
                       </div>
                     </Col>
