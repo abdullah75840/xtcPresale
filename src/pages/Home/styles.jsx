@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeroSection = styled.div`
   position: relative;
@@ -30,7 +30,7 @@ export const HeroSection = styled.div`
         width: 100%;
         max-width: 668px;
         margin-top: 0.5em;
-        font-family: 'GoogleSans-Medium', sans-serif;
+        font-family: "GoogleSans-Medium", sans-serif;
         color: var(--white);
       }
     }
@@ -61,7 +61,7 @@ export const HeroSection = styled.div`
       align-items: center;
       margin-bottom: 1.25em;
       h2 {
-        font-family: 'GoogleSans-Medium', sans-serif;
+        font-family: "GoogleSans-Medium", sans-serif;
         color: var(--white);
       }
       .label {
@@ -147,7 +147,7 @@ export const HeroSection = styled.div`
           background-color: var(--white) !important;
           color: var(--black) !important;
           font-size: 1.0625em;
-          font-family: 'GoogleSans-Regular', sans-serif;
+          font-family: "GoogleSans-Regular", sans-serif;
           justify-content: start;
           img {
             margin-right: 0.3em;
@@ -166,7 +166,7 @@ export const HeroSection = styled.div`
           border-color: unset !important;
           box-shadow: none !important;
           font-size: 17px;
-          font-family: 'GoogleSans-Regular', sans-serif;
+          font-family: "GoogleSans-Regular", sans-serif;
           &::placeholder {
             color: var(--gray);
           }
@@ -179,15 +179,15 @@ export const HeroSection = styled.div`
         justify-content: space-between;
         align-items: center;
         p {
-          font-family: 'GoogleSans-Medium', sans-serif;
+          font-family: "GoogleSans-Medium", sans-serif;
           font-weight: 500;
           color: var(--white);
+          cursor: pointer;
           &:first-child {
             font-size: 1.0625em;
           }
           &:last-child {
             font-size: 1.125em;
-            cursor: pointer;
           }
         }
       }
@@ -271,7 +271,7 @@ export const HeroSection = styled.div`
       }
     }
     .sectionCard {
-      padding: 2em 1em;
+      padding: 1em 1em;
       .cardLabel {
         p {
           font-size: 0.875em;
@@ -283,6 +283,7 @@ export const HeroSection = styled.div`
         }
         .tokenBtn {
           padding: 0 0.75em;
+          height: 54px;
           & > span:first-child {
             font-size: 13px !important;
             margin-bottom: 0.375em;

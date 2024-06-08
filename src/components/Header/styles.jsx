@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeadNav = styled.div`
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.11);
@@ -10,7 +10,7 @@ export const HeadNav = styled.div`
     .navbar-nav a {
       font-size: 1.5em;
       font-weight: bold;
-      font-family: 'GoogleSans-Bold', sans-serif;
+      font-family: "GoogleSans-Bold", sans-serif;
     }
     .navbar-brand {
       color: var(--red);
@@ -88,6 +88,11 @@ export const HeadNav = styled.div`
           }
         }
       }
+    }
+  }
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 1em 0;
     }
   }
 `;
