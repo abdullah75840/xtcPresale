@@ -135,6 +135,29 @@ export const HeroSection = styled.div`
         color: var(--white);
         text-align: center;
       }
+      .connect_wallet_title {
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          background: #fff;
+          height: 1px;
+          width: 32%;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          background: #fff;
+          height: 1px;
+          width: 32%;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
     }
     .buySection {
       margin: 1em 0;

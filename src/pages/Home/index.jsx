@@ -82,7 +82,7 @@ const Home = () => {
                       </div>
                     </Col>
                     <Col xs={24}>
-                      <p>CONNECT WALLET</p>
+                      <p className="connect_wallet_title">CONNECT WALLET</p>
                     </Col>
                     <Col xs={12}>
                       <div className="tokenBtn">
