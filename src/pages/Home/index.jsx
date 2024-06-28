@@ -16,13 +16,13 @@ const Home = () => {
       <HeroSection>
         <Container>
           <Row gutter={{ lg: 20 }}>
-            <img className="personImg" src="/images/artBoard.png" alt="" />
+            {/* <img className="personImg" src="/images/artBoard.png" alt="" /> */}
             <Col xxl={15} lg={12} xs={24} style={{ height: "auto" }}>
               <div className="sectionInfo">
                 <div className="infoTitles">
                   <img src="/images/CompositeLayer.svg" alt="" />
                   <h3>
-                    Step into the fans revolution. Join this presale journey to
+                    Step into the $XTC revolution. Join this presale journey to
                     be part of reshaping the intersection of technology and
                     finance.
                   </h3>
@@ -110,7 +110,7 @@ const Home = () => {
                       <div className="buyBtn">
                         <MyButton>
                           <img src="/images/bnb-icon.svg" alt="" />
-                          <span>BUY WITH BNB</span>
+                          <span>BUY WITH CARD</span>
                         </MyButton>
                       </div>
                     </Col>
@@ -144,7 +144,7 @@ const Home = () => {
                     <p onClick={() => setClaimModal(true)}>Claim your tokens</p>
                   </div>
                   <div className="buyBtn">
-                    <MyButton>BUY $BTCFANS</MyButton>
+                    <MyButton>BUY $XTCFANS</MyButton>
                   </div>
                 </div>
               </div>
